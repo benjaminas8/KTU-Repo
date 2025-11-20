@@ -1,0 +1,10 @@
+// string pav, tip;
+// GrybasInfo s1;
+ while(!fd.eof() && yra) { // kol yra duomenų ir jie telpa į masyvą
+ grybai[ns++] = s1; // įrašo naują elementą
+/* Pašalina iš eilutės komentarus ir grąžina požymį, ar šalino.
+    @param line - eilutė su komentarais
+    sdsdsd
+    sdsd
+    @param nauja - eilutė be komentarų */
+//-----------------------------------------------------------

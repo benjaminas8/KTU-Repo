@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\Tekstas\lab1\bin\Debug\lab1.exe.config
+C:\Users\Admin\Desktop\Tekstas\lab1\bin\Debug\lab1.exe
+C:\Users\Admin\Desktop\Tekstas\lab1\bin\Debug\lab1.pdb
+C:\Users\Admin\Desktop\Tekstas\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Tekstas\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Tekstas\lab1\obj\Debug\lab1.exe
+C:\Users\Admin\Desktop\Tekstas\lab1\obj\Debug\lab1.pdb
+C:\Users\Admin\Desktop\Tekstas\lab1\obj\Debug\lab1.exe.config

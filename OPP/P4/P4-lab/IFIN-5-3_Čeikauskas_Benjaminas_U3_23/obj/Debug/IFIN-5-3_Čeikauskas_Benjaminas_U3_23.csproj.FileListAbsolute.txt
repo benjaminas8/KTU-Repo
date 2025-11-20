@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\Tekstas\IFIN-5-3_Čeikauskas_Benjaminas_U3_23\bin\Debug\IFIN-5-3_Čeikauskas_Benjaminas_U3_23.exe.config
+C:\Users\Admin\Desktop\Tekstas\IFIN-5-3_Čeikauskas_Benjaminas_U3_23\bin\Debug\IFIN-5-3_Čeikauskas_Benjaminas_U3_23.exe
+C:\Users\Admin\Desktop\Tekstas\IFIN-5-3_Čeikauskas_Benjaminas_U3_23\bin\Debug\IFIN-5-3_Čeikauskas_Benjaminas_U3_23.pdb
+C:\Users\Admin\Desktop\Tekstas\IFIN-5-3_Čeikauskas_Benjaminas_U3_23\obj\Debug\IFIN-5-3_Čeikauskas_Benjaminas_U3_23.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Tekstas\IFIN-5-3_Čeikauskas_Benjaminas_U3_23\obj\Debug\IFIN-5-3_Čeikauskas_Benjaminas_U3_23.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Tekstas\IFIN-5-3_Čeikauskas_Benjaminas_U3_23\obj\Debug\IFIN-5-3_Čeikauskas_Benjaminas_U3_23.exe
+C:\Users\Admin\Desktop\Tekstas\IFIN-5-3_Čeikauskas_Benjaminas_U3_23\obj\Debug\IFIN-5-3_Čeikauskas_Benjaminas_U3_23.pdb
+C:\Users\Admin\Desktop\Tekstas\IFIN-5-3_Čeikauskas_Benjaminas_U3_23\obj\Debug\IFIN-5-3_Čeikauskas_Benjaminas_U3_23.exe.config

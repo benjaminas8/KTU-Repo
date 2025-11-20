@@ -1,0 +1,68 @@
+---------------------------------------------
+Line number: 1
+Cleaned text: level test abba code deed more
+Words with first higher letter and last higher letter have equal count: 1
+---------------------------------------------
+Line number: 2
+Cleaned text: hello world  test
+Words with first higher letter and last higher letter have equal count: 1
+---------------------------------------------
+Line number: 3
+Cleaned text: abc cba noon xyz
+Text have more words with higher last letter count: 2
+---------------------------------------------
+4 Line is empty
+---------------------------------------------
+Line number: 5
+Cleaned text: ,level... test,,?? code!!!  deed;more
+Words with first higher letter and last higher letter have equal count: 1
+---------------------------------------------
+6 Line is empty
+---------------------------------------------
+Line number: 7
+Cleaned text:  112221
+There are no words with greater first or greater last letter
+---------------------------------------------
+Line number: 8
+Cleaned text: (noon)  test::word--civic??
+Text have more words with higher first letter count: 1
+---------------------------------------------
+9 Line is empty
+---------------------------------------------
+Line number: 10
+Cleaned text: level  deed rotor kayak stats solos
+There are no words with greater first or greater last letter
+---------------------------------------------
+11 Line is empty
+---------------------------------------------
+Line number: 12
+Cleaned text: aa bb ccc deed  abcba test wowow
+There are no words with greater first or greater last letter
+---------------------------------------------
+13 Line is empty
+---------------------------------------------
+Line number: 14
+Cleaned text: test-word--test;racecar...zaz?pop??
+Text have more words with higher first letter count: 1
+---------------------------------------------
+15 Line is empty
+---------------------------------------------
+Line number: 16
+Cleaned text: word word word word
+Text have more words with higher first letter count: 4
+---------------------------------------------
+17 Line is empty
+---------------------------------------------
+Line number: 18
+Cleaned text:  xyzz ababa ababa
+Text have more words with higher last letter count: 1
+---------------------------------------------
+19 Line is empty
+---------------------------------------------
+Line number: 20
+Cleaned text: mirror rotor kayak test-word
+Words with first higher letter and last higher letter have equal count: 1
+---------------------------------------------
+Line number: 21
+Cleaned text: code;test;data
+Words with first higher letter and last higher letter have equal count: 1
