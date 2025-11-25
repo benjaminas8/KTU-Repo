@@ -1,4 +1,5 @@
-﻿using System;
+﻿//IFIN-5/3_Čeikauskas_Benjaminas_U4_23
+using System;
 using System.IO;
 using System.Text;
 
@@ -10,14 +11,26 @@ namespace WordComparison
     public class Line
     {
         public string text { get; private set; } // Original line text
-
+        /// <summary>
+        /// Empty constructor
+        /// </summary>
         public Line()
         {
         }
+        /// <summary>
+        /// Constructor with parameters
+        /// </summary>
+        /// <param name="text"></param>
         public Line(string text)
         {
             this.text = text;
         }
+        /// <summary>
+        /// Counts the number of words where the first character is greater than the last.
+        /// </summary>
+        /// <param name="separators">An array of characters used as separators </param>
+        /// <returns>The count of words where the first character
+        /// is greater than the last character.</returns>
         public int GetFirstGreater(char[] separators)
         {
             string[] words = ExtractWords(separators);
@@ -31,7 +44,12 @@ namespace WordComparison
             }
             return count;
         }
-
+        /// <summary>
+        /// Counts the number of words where the last character is greater than the first.
+        /// </summary>
+        /// <param name="separators">An array of characters used as separators </param>
+        /// <returns>The count of words where the last character
+        /// is greater than the first character.</returns>
         public int GetLastGreater(char[] separators)
         {
             string[] words = ExtractWords(separators);
@@ -45,6 +63,13 @@ namespace WordComparison
             }
             return count;
         }
+        /// <summary>
+        /// Retrieves an array of words that have the same first two and last two characters.
+        /// </summary>
+        /// <param name="separators">An array of characters used as separators</param>
+        /// <returns>An array of strings containing words where the first two and last two 
+        /// characters are identical.  The array will be empty if no such words
+        /// are found.</returns>
         public string[] GetSpecialWords(char[] separators)
         {
             string[] words = ExtractWords(separators);
@@ -73,7 +98,13 @@ namespace WordComparison
             Array.Copy(temp, result, count);
             return result;
         }
-
+        /// <summary>
+        /// Removes words from the text that start and end with the same two characters,
+        /// using specified separators to identify word boundaries.
+        /// </summary>
+        /// <param name="separators">An array of characters used as separators</param>
+        /// <returns>A string with special words removed, preserving the original 
+        /// separators.</returns>
         public string RemoveSpecialWords(char[] separators)
         {
             string line = text;
@@ -97,7 +128,7 @@ namespace WordComparison
 
                 if (isSeparator)
                 {
-                    // jeigu baigėsi žodis — tikrinam jį
+                    // if word ended, process it
                     if (word.Length > 0)
                     {
                         string w = word.ToString();
@@ -105,18 +136,18 @@ namespace WordComparison
                         if (w.Length >= 4 &&
                             w.Substring(0, 2) == w.Substring(w.Length - 2))
                         {
-                            // SKIP — nerašom specialaus žodžio
+                            // SKIP special word — do nothing
                         }
                         else
                         {
-                            // normalus žodis — į rezultatą
+                            // not special word — add to result
                             result.Append(w);
                         }
 
                         word.Clear();
                     }
 
-                    // separatorius visada į rezultatą
+                    // add the separator to the result
                     result.Append(c);
                 }
                 else
@@ -125,7 +156,7 @@ namespace WordComparison
                 }
             }
 
-            // paskutinis žodis
+            // process the last word if any
             if (word.Length > 0)
             {
                 string w = word.ToString();
@@ -139,7 +170,12 @@ namespace WordComparison
 
             return result.ToString();
         }
-
+        /// <summary>
+        /// Extracts words from the current text using the specified separators.
+        /// </summary>
+        /// <param name="separators">An array of characters used as separators</param>
+        /// <returns>An array of strings, each representing a word extracted from the text.
+        /// The array will be empty if no words are found.</returns>
         private string[] ExtractWords(char[] separators)
         {
             string line = text;
@@ -188,21 +224,27 @@ namespace WordComparison
 
 
     }
+    /// <summary>
+    /// Container for storing and managing a collection of class Line objects.
+    /// </summary>
     public class LinesContainer
     {
         const int Cmax = 100;
         private Line[] Lines;
         private int count;
+        /// <summary>
+        /// Initializes a new instance of the class.
+        /// </summary>
         public LinesContainer()
         {
             count = 0;
             Lines = new Line[Cmax];
         }
+        //Methods of the interface
         public Line GetLine(int i) { return Lines[i]; }
         public int GetCount() { return count; }
         public void AddLine(Line obj) { Lines[count++] = obj; }
     }
-
     internal class Program
     {
         const string CFd = "Data.txt";
@@ -224,7 +266,11 @@ namespace WordComparison
 
             Console.WriteLine("Finished.");
         }
-
+        /// <summary>
+        /// Reads all lines from a specified file and adds them to the provided container.
+        /// </summary>
+        /// <param name="container">Container to which the lines will be added.</param>
+        /// <param name="Fn">The path of the file to read.</param>
         static void ReadLines(LinesContainer container, string Fn)
         {
             string[] lines = File.ReadAllLines(Fn, Encoding.UTF8);
@@ -235,6 +281,16 @@ namespace WordComparison
                 container.AddLine(obj);
             }
         }
+        /// <summary>
+        /// Processes each line in the specified container, analyzing and writing results
+        /// to the given files.
+        /// </summary>
+        /// <param name="container">Container containing lines to be processed.</param>
+        /// <param name="separators">An array of characters used as separators</param>
+        /// <param name="FnAnalysis">The file path where the analysis results of special
+        /// words will be written.</param>
+        /// <param name="FnResults">The file path where the processed line results will
+        /// be written.</param>
         static void Print(LinesContainer container, char[] separators, string FnAnalysis,
                           string FnResults)
         {
