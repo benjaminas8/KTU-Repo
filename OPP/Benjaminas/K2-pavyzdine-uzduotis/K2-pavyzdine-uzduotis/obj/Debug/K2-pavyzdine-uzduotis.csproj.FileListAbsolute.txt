@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-pavyzdine-uzduotis\K2-pavyzdine-uzduotis\bin\Debug\K2-pavyzdine-uzduotis.exe.config
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-pavyzdine-uzduotis\K2-pavyzdine-uzduotis\bin\Debug\K2-pavyzdine-uzduotis.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-pavyzdine-uzduotis\K2-pavyzdine-uzduotis\bin\Debug\K2-pavyzdine-uzduotis.pdb
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-pavyzdine-uzduotis\K2-pavyzdine-uzduotis\obj\Debug\K2-pavyzdine-uzduotis.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-pavyzdine-uzduotis\K2-pavyzdine-uzduotis\obj\Debug\K2-pavyzdine-uzduotis.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-pavyzdine-uzduotis\K2-pavyzdine-uzduotis\obj\Debug\K2-pavyzdine-uzduotis.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-pavyzdine-uzduotis\K2-pavyzdine-uzduotis\obj\Debug\K2-pavyzdine-uzduotis.pdb
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-pavyzdine-uzduotis\K2-pavyzdine-uzduotis\obj\Debug\K2-pavyzdine-uzduotis.exe.config
