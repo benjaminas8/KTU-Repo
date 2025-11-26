@@ -10,14 +10,19 @@ namespace K2_pavyzdine_uzduotis
     internal class Program
     {
         const string Cfd = "Tekstas.txt";
+        const string Cfr = "RedTekstas.txt";
         static void Main(string[] args)
         {
+            if (File.Exists(Cfr))
+                File.Delete(Cfr);
+
             char[] skyrikliai = { ' ', ',', '.', '!', '?', ';', ':', '-', '\t' };
             string sk = " ,.!?;:-\t";
             string zod = "";
             int eil = 0;
             RastiZTekste(Cfd, sk, out zod, ref eil);
             Console.WriteLine("{0}", zod);
+            PerkeltiEilute(Cfd, Cfr, eil);
         }
         static int SkirtBalsiuSkaicius(string e)
         {
@@ -78,5 +83,22 @@ namespace K2_pavyzdine_uzduotis
 
             }
         }
+        static void PerkeltiEilute(string fvd, string fvr, int n)
+        {
+            string [] lines = File.ReadAllLines(fvd, Encoding.UTF8);
+            string[] naujosEilutes = new string[lines.Length];
+
+            naujosEilutes[0] = lines[n - 1];
+            int index = 1;
+            for (int i = 0; i < lines.Length; i++)
+            {
+                if (i == n - 1) continue;
+                naujosEilutes[index] = lines[i];
+                index++;
+            
+            }
+            File.WriteAllLines(fvr, naujosEilutes, Encoding.UTF8);
+        }
     }
 }
+
