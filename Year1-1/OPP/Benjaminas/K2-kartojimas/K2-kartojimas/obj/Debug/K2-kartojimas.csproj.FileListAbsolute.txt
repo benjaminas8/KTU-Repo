@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-kartojimas\K2-kartojimas\bin\Debug\K2-kartojimas.exe.config
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-kartojimas\K2-kartojimas\bin\Debug\K2-kartojimas.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-kartojimas\K2-kartojimas\bin\Debug\K2-kartojimas.pdb
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-kartojimas\K2-kartojimas\obj\Debug\K2-kartojimas.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-kartojimas\K2-kartojimas\obj\Debug\K2-kartojimas.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-kartojimas\K2-kartojimas\obj\Debug\K2-kartojimas.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-kartojimas\K2-kartojimas\obj\Debug\K2-kartojimas.pdb
+C:\Users\Admin\Documents\GitHub\KTU-Repo\OPP\Benjaminas\K2-kartojimas\K2-kartojimas\obj\Debug\K2-kartojimas.exe.config
