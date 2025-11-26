@@ -13,7 +13,6 @@ namespace K2_pavyzdine_uzduotis
         static void Main(string[] args)
         {
             char[] skyrikliai = { ' ', ',', '.', '!', '?', ';', ':', '-', '\t' };
-            string sk = new string(skyrikliai);
             string sk = " ,.!?;:-\t";
             string zod = "";
             int eil = 0;
