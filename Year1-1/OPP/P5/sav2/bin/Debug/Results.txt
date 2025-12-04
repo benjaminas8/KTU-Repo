@@ -69,3 +69,5 @@ Kasa nr. 6 dirbo visas dienas.
  Kasa nr. 4 vidutiniškai aptarnavo 1.29 klientų per dieną.
  Kasa nr. 5 vidutiniškai aptarnavo 4.86 klientų per dieną.
  Kasa nr. 6 vidutiniškai aptarnavo 4.86 klientų per dieną.
+
+ Kasa nr. 4 aptarnavo mažiausiai klientų: 9.

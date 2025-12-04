@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sav4", "sav4\sav4.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sav5", "sav5\sav5.csproj", "{F240BC9A-3F4C-45C0-9407-4DE023B04813}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFIN53_Čeikauskas_Benjaminas_U5_23", "IFIN53_Čeikauskas_Benjaminas_U5_23\IFIN53_Čeikauskas_Benjaminas_U5_23.csproj", "{1D508E95-19FB-42AC-8CA3-6CA5AEDACE9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F240BC9A-3F4C-45C0-9407-4DE023B04813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F240BC9A-3F4C-45C0-9407-4DE023B04813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F240BC9A-3F4C-45C0-9407-4DE023B04813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D508E95-19FB-42AC-8CA3-6CA5AEDACE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D508E95-19FB-42AC-8CA3-6CA5AEDACE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D508E95-19FB-42AC-8CA3-6CA5AEDACE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D508E95-19FB-42AC-8CA3-6CA5AEDACE9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

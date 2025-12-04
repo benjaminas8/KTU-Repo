@@ -86,6 +86,14 @@ namespace sav1
             KiekvienaKasaAptarnavoVidutiniskai(prekybosBaze, KasuSumosVid);
             SpausdintiSumas1(CFr, KasuSumosVid, prekybosBaze.n, "Kasos-Vid");
 
+            int maziausiaiAptarnautaKasaNr, maziausiaiAptarnautaKiek;
+            LowestCustomerCash(prekybosBaze, out maziausiaiAptarnautaKasaNr, out maziausiaiAptarnautaKiek);
+            using (var fr = File.AppendText(CFr))
+            {
+                fr.WriteLine();
+                fr.WriteLine(" Kasa nr. {0} aptarnavo mažiausiai klientų: {1}.",
+                             maziausiaiAptarnautaKasaNr, maziausiaiAptarnautaKiek);
+            }
 
             Console.WriteLine("Program finished working");
         }
@@ -241,7 +249,7 @@ namespace sav1
         static void LowestCustomerCash(Matrica A, out int cashNr, out int custNumb)
         {
             cashNr = -1;
-            custNumb = 0;
+            custNumb = 100;
             for (int i = 0; i < A.n; i++)
             {
                 int suma = 0;
