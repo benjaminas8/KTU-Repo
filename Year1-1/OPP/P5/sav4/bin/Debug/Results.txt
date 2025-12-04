@@ -1,0 +1,37 @@
+Pradiniai duomenys
+
+Savaičių kiekis 3
+Dienų kiekis 7
+
+|      1-dienis ||      2-dienis ||      3-dienis ||      4-dienis ||      5-dienis ||      6-dienis ||      7-dienis |
+|vyras    10,40 ||vyras    15,20 ||zmona    50,50 ||zmona   100,20 ||-----     0,00 ||zmona    10,20 ||-----     0,00 |
+|zmona    15,30 ||-----     0,00 ||-----     0,00 ||zmona    20,50 ||vyras    55,50 ||vyras    10,10 ||zmona    30,30 |
+|vyras    10,10 ||vyras    20,20 ||vyras    30,30 ||vyras    50,50 ||vyras    20,10 ||vyras    30,10 ||vyras    30,10 |
+
+Rezultatai
+
+Viso išleista: 509,60 €.
+
+4 dien. neturejo islaidu.
+
+Asmens zmona islaidos: 227,00 €.
+Asmens vyras islaidos: 282,60 €.
+
+Savaitės nr. 1 išlaidos 186,50 €.
+Savaitės nr. 2 išlaidos 131,70 €.
+Savaitės nr. 3 išlaidos 191,40 €.
+
+Antradienių bendros išlaidos 35,40 €.
+Šeštadienių bendros išlaidos 50,40 €.
+
+Daugiausia išleista 1 sav. 4 dieną. Pinigus išleido zmona: 100,20 €.
+
+Maziausia išleista 2 sav. 6 dieną. Pinigus išleido vyras: 10,10 €.
+
+Dienos nr. 1 išlaidos 35,80 €.
+Dienos nr. 2 išlaidos 35,40 €.
+Dienos nr. 3 išlaidos 80,80 €.
+Dienos nr. 4 išlaidos 171,20 €.
+Dienos nr. 5 išlaidos 75,60 €.
+Dienos nr. 6 išlaidos 50,40 €.
+Dienos nr. 7 išlaidos 60,40 €.

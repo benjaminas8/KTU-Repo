@@ -1,0 +1,48 @@
+ Pradiniai duomenys
+
+ Kasų kiekis 6
+ Darbo dienų kiekis 7
+ Aptarnautų klientų kiekiai
+-------------------------------------
+Kasa nr. 1
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+5	9	8	7	3	5	6	
+-------------------------------------
+Kasa nr. 2
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+6	9	8	2	1	5	2	
+-------------------------------------
+Kasa nr. 3
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+8	9	0	8	8	8	8	
+-------------------------------------
+Kasa nr. 4
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+4	5	6	0	0	0	0	
+-------------------------------------
+Kasa nr. 5
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+5	6	9	1	0	5	8	
+-------------------------------------
+Kasa nr. 6
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+3	4	5	4	6	5	7	
+
+ Rezultatai
+
+ Viso aptarnauta: 208 klientų.
+ Vidutiniškai viena kasa aptarnauja: 4 klient. per dieną.
+ Kasa kurios numeris 3 vidutiniškai per deiną aptarnauja 7 klient.
+
+-------------------------------------
+Kasa nr. 1 dirbo visas dienas.
+-------------------------------------
+Kasa nr. 2 dirbo visas dienas.
+-------------------------------------
+Kasa nr. 3 nedirbo 1 dien.
+-------------------------------------
+Kasa nr. 4 nedirbo 4 dien.
+-------------------------------------
+Kasa nr. 5 nedirbo 1 dien.
+-------------------------------------
+Kasa nr. 6 dirbo visas dienas.

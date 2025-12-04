@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\sav1\bin\Debug\P5.exe.config
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\sav1\bin\Debug\P5.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\sav1\bin\Debug\P5.pdb
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\sav1\obj\Debug\sav1.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\sav1\obj\Debug\P5.exe.config
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\sav1\obj\Debug\sav1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\sav1\obj\Debug\P5.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\sav1\obj\Debug\P5.pdb

@@ -1,0 +1,71 @@
+ Pradiniai duomenys
+
+ Kasų kiekis 6
+ Darbo dienų kiekis 7
+ Aptarnautų klientų kiekiai
+-------------------------------------
+Kasa nr. 1
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+5	9	8	7	3	5	6	
+-------------------------------------
+Kasa nr. 2
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+6	9	8	2	1	5	2	
+-------------------------------------
+Kasa nr. 3
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+8	9	0	8	8	8	8	
+-------------------------------------
+Kasa nr. 4
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+4	5	0	0	0	0	0	
+-------------------------------------
+Kasa nr. 5
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+5	6	9	1	0	5	8	
+-------------------------------------
+Kasa nr. 6
+1d.	2d.	3d.	4d.	5d.	6d.	7d.
+3	4	5	4	6	5	7	
+
+ Rezultatai
+
+ Viso aptarnauta: 202 klientų.
+ Vidutiniškai viena kasa aptarnauja: 4 klient. per dieną.
+ Kasa kurios numeris 3 vidutiniškai per deiną aptarnauja 7 klient.
+
+-------------------------------------
+Kasa nr. 1 dirbo visas dienas.
+-------------------------------------
+Kasa nr. 2 dirbo visas dienas.
+-------------------------------------
+Kasa nr. 3 nedirbo 1 dien.
+-------------------------------------
+Kasa nr. 4 nedirbo 5 dien.
+-------------------------------------
+Kasa nr. 5 nedirbo 1 dien.
+-------------------------------------
+Kasa nr. 6 dirbo visas dienas.
+
+
+ Kasa nr. 1 aptarnavo 43 klientų.
+ Kasa nr. 2 aptarnavo 33 klientų.
+ Kasa nr. 3 aptarnavo 49 klientų.
+ Kasa nr. 4 aptarnavo 9 klientų.
+ Kasa nr. 5 aptarnavo 34 klientų.
+ Kasa nr. 6 aptarnavo 34 klientų.
+
+ Diena nr. 1: aptarnauta klientų - 31.
+ Diena nr. 2: aptarnauta klientų - 42.
+ Diena nr. 3: aptarnauta klientų - 30.
+ Diena nr. 4: aptarnauta klientų - 22.
+ Diena nr. 5: aptarnauta klientų - 18.
+ Diena nr. 6: aptarnauta klientų - 28.
+ Diena nr. 7: aptarnauta klientų - 31.
+
+ Kasa nr. 1 vidutiniškai aptarnavo 6.14 klientų per dieną.
+ Kasa nr. 2 vidutiniškai aptarnavo 4.71 klientų per dieną.
+ Kasa nr. 3 vidutiniškai aptarnavo 7.00 klientų per dieną.
+ Kasa nr. 4 vidutiniškai aptarnavo 1.29 klientų per dieną.
+ Kasa nr. 5 vidutiniškai aptarnavo 4.86 klientų per dieną.
+ Kasa nr. 6 vidutiniškai aptarnavo 4.86 klientų per dieną.

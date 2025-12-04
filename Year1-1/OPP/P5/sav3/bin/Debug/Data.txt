@@ -1,0 +1,5 @@
+3
+7
+vyras; 10,40;vyras; 15,20;zmona; 50,50;zmona; 100,20;-----; 0,0;zmona; 10,20;-----; 0,0;
+zmona; 15,30;-----; 0,0;-----;0,0;zmona; 20,50;vyras; 55,50;vyras; 10,10;zmona; 30,30;
+vyras; 10,10;vyras; 20,20;vyras; 30,30;vyras; 50,50;vyras; 20,10;vyras; 30,10;vyras; 30,10;

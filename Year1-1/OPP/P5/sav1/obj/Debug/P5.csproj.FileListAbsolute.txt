@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\Benjaminas\P5\P5\bin\Debug\P5.exe.config
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\Benjaminas\P5\P5\bin\Debug\P5.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\Benjaminas\P5\P5\bin\Debug\P5.pdb
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\Benjaminas\P5\P5\obj\Debug\P5.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\Benjaminas\P5\P5\obj\Debug\P5.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\Benjaminas\P5\P5\obj\Debug\P5.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\Benjaminas\P5\P5\obj\Debug\P5.pdb
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\Benjaminas\P5\P5\obj\Debug\P5.exe.config
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\P5\bin\Debug\P5.exe.config
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\P5\bin\Debug\P5.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\P5\bin\Debug\P5.pdb
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\P5\obj\Debug\P5.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\P5\obj\Debug\P5.exe.config
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\P5\obj\Debug\P5.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\P5\obj\Debug\P5.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\P5\obj\Debug\P5.pdb
