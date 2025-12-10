@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\IFIN53_Čeikauskas_Benjaminas_U5_23\bin\Debug\IFIN53_Čeikauskas_Benjaminas_U5_23.exe.config
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\IFIN53_Čeikauskas_Benjaminas_U5_23\bin\Debug\IFIN53_Čeikauskas_Benjaminas_U5_23.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\IFIN53_Čeikauskas_Benjaminas_U5_23\bin\Debug\IFIN53_Čeikauskas_Benjaminas_U5_23.pdb
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\IFIN53_Čeikauskas_Benjaminas_U5_23\obj\Debug\IFIN53_Čeikauskas_Benjaminas_U5_23.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\IFIN53_Čeikauskas_Benjaminas_U5_23\obj\Debug\IFIN53_Čeikauskas_Benjaminas_U5_23.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\IFIN53_Čeikauskas_Benjaminas_U5_23\obj\Debug\IFIN53_Čeikauskas_Benjaminas_U5_23.exe
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\IFIN53_Čeikauskas_Benjaminas_U5_23\obj\Debug\IFIN53_Čeikauskas_Benjaminas_U5_23.pdb
+C:\Users\Admin\Documents\GitHub\KTU-Repo\Year1-1\OPP\P5\IFIN53_Čeikauskas_Benjaminas_U5_23\obj\Debug\IFIN53_Čeikauskas_Benjaminas_U5_23.exe.config
