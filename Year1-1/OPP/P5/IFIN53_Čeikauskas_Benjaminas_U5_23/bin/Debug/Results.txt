@@ -2,45 +2,63 @@ Cities
 --------------------------------------------------
 | Nr. |    City    |   Residents   |    Youth    |
 --------------------------------------------------
-| 1.  |Vilnius     |     592000    |    72000    |
-| 2.  |Kaunas      |     305000    |    41000    |
-| 3.  |Klaipeda    |     149000    |    21000    |
-| 4.  |Siauliai    |     100000    |    12000    |
-| 5.  |Panevezys   |     88000     |    12000    |
+| 1.  |CityA       |     100000    |    10000    |
+| 2.  |CityB       |     90000     |     0    |
+| 3.  |CityC       |     80000     |    10000    |
+| 4.  |CityD       |     70000     |    10000    |
+| 5.  |CityE       |     60000     |    10000    |
 --------------------------------------------------
 
 --------------------------------------------------
-Unemployed youth in cities per 6 month.
+Unemployed youth in cities per 4 month.
 --------------------------------------------------
-    1.  1200  1300  1250  1180  1220  1190 
-    2.   980  1020   995  1010   990  1005 
-    3.   650   700   680   660   400   655 
-    4.   500   520   510   495   480   490 
-    5.   430   450   445   438   425   430 
+    1.     5     5     0     0 
+    2.    10    10     0     0 
+    3.     0     0     0     0 
+    4.     1     1     0     0 
+    5.     1     1     0     0 
 --------------------------------------------------
 
-The month with the highest youth unemployment is month 2 with 3990 unemployed youth.
+MONTHS WITH HIGHEST YOUTH UNEMPLOYMENT
+------------------------------------
+Month 1: total unemployed youth = 17
+Month 2: total unemployed youth = 17
 
-The city with the lowest youth unemployment ratio is Vilnius  in month 4 with 0.02 ratio.
+CITIES WITH LOWEST YOUTH UNEMPLOYMENT RATIO
+-----------------------------------------
+CityA, month 3: no unemployed youth
+CityA, month 4: no unemployed youth
+CityB, month 1: no youth population
+CityB, month 2: no youth population
+CityB, month 3: no youth and no unemployed
+CityB, month 4: no youth and no unemployed
+CityC, month 1: no unemployed youth
+CityC, month 2: no unemployed youth
+CityC, month 3: no unemployed youth
+CityC, month 4: no unemployed youth
+CityD, month 3: no unemployed youth
+CityD, month 4: no unemployed youth
+CityE, month 3: no unemployed youth
+CityE, month 4: no unemployed youth
 
 Sorted cities by youth and residents from lower to higher
 --------------------------------------------------
 | Nr. |    City    |   Residents   |    Youth    |
 --------------------------------------------------
-| 1.  |Panevezys   |     88000     |    12000    |
-| 2.  |Siauliai    |     100000    |    12000    |
-| 3.  |Klaipeda    |     149000    |    21000    |
-| 4.  |Kaunas      |     305000    |    41000    |
-| 5.  |Vilnius     |     592000    |    72000    |
+| 1.  |CityB       |     90000     |     0    |
+| 2.  |CityE       |     60000     |    10000    |
+| 3.  |CityD       |     70000     |    10000    |
+| 4.  |CityC       |     80000     |    10000    |
+| 5.  |CityA       |     100000    |    10000    |
 --------------------------------------------------
 
 --------------------------------------------------
-Unemployed youth in cities after sorting per 6 month.
+Unemployed youth in cities after sorting per 4 month.
 --------------------------------------------------
-    1.   430   450   445   438   425   430 
-    2.   500   520   510   495   480   490 
-    3.   650   700   680   660   400   655 
-    4.   980  1020   995  1010   990  1005 
-    5.  1200  1300  1250  1180  1220  1190 
+    1.    10    10     0     0 
+    2.     1     1     0     0 
+    3.     1     1     0     0 
+    4.     0     0     0     0 
+    5.     5     5     0     0 
 --------------------------------------------------
 

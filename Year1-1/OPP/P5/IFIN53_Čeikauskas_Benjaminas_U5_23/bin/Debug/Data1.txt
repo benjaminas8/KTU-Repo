@@ -1,6 +1,0 @@
-5 6
-Vilnius 592000 72000
-Kaunas 305000 0
-Klaipeda 149000 21000
-Siauliai 100000 12000
-Panevezys 88000 12000

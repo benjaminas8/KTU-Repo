@@ -13,39 +13,57 @@
 //Suraskite, kurį mėnesį ir kuriame mieste santykinis nedarbo lygis buvo mažiausias.
 //Surikiuokite miestus pagal jaunimo skaičių ir gyventojų skaičių.
 
-//2 menesiai, 2 miestai, nedarbas 0, jaunimas 0
-
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace IFIN53_Čeikauskas_Benjaminas_U5_23
 {
+    /// <summary>
+    /// Class holding city data
+    /// </summary>
     class City
     {
         private string name;
         private int residents;
         private int youth;
+        /// <summary>
+        /// Empty constructor
+        /// </summary>
+        public City() { }
+        /// <summary>
+        /// Constructor with parameters
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="residents"></param>
+        /// <param name="youth"></param>
         public City(string name, int residents, int youth)
         {
             this.name = name;
             this.residents = residents;
             this.youth = youth;
         }
+        /// <summary>
+        /// Adds city data
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="residents"></param>
+        /// <param name="youth"></param>
         public void Add(string name, int residents, int youth)
         {
             this.name = name;
             this.residents = residents;
             this.youth = youth;
         }
+        //interface methods
         public string GetName() { return name; }
         public int GetResidents() { return residents; }
         public int GetYouth() { return youth; }
-
         public override string ToString()
         {
             string line;
@@ -54,6 +72,7 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
 
             return line;
         }
+        //operator overloads for sorting by youth and residents
         public static bool operator <=(City a, City b)
         {
             return a.youth > b.youth || a.youth == b.youth && a.residents > b.residents;
@@ -63,6 +82,9 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
             return a.youth > b.youth || a.youth == b.youth && a.residents > b.residents;
         }
     }
+    /// <summary>
+    /// Class holding array of cities
+    /// </summary>
     class CityArray
     {
         const int CMax = 100;
@@ -73,23 +95,29 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
             n = 0;
             Cities = new City[CMax];
         }
+        //interface methods
+        //gets city from array
         public City GetCity(int i)
         {
             City c1 = new City(Cities[i].GetName(), Cities[i].GetResidents(),
                                Cities[i].GetYouth());
             return c1;
-        }
+        }//adds city to array
         public void Add(City c)
         {
             City c1 = new City(c.GetName(), c.GetResidents(), c.GetYouth());
             Cities[n++] = c1;
         }
+        //changes city in array
         public void Change(int i, City c)
         {
             City c1 = new City(c.GetName(), c.GetResidents(), c.GetYouth());
             Cities[i] = c1;
         }
     }
+    /// <summary>
+    /// Matrix class holding unemployed youth data
+    /// </summary>
     class Matrix
     {
         const int CMaxRow = 100;
@@ -105,14 +133,18 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
             //C = new City[CMaxEil, CMaxSt];
             S = new int[CMaxRow, CMaxCol];
         }
+        //interface methods
+        //adds unemployed youth data to matrix
         public void AddS(int row, int cols, int num)
         {
             S[row, cols] = num;
         }
+        //gets unemployed youth data from matrix
         public int GetS(int row, int cols)
         {
             return S[row, cols];
         }
+        //changes rows in matrix
         public void ChangeSRow(int row1, int row2)
         {
             for (int j = 0; j < m; j++)
@@ -125,8 +157,25 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
     }
     internal class Program
     {
-        const string CFd1 = "Data1.txt";
-        const string CFd2 = "Data2.txt";
+        //TEST1
+        //MONTHS WITH HIGHEST YOUTH UNEMPLOYMENT - regular case (1 highest)
+        //CITIES WITH LOWEST YOUTH UNEMPLOYMENT RATIO - regular case (1 lowest)
+        //const string CFd1 = "Data1_test1.txt";
+        //const string CFd2 = "Data2_test1.txt";
+
+        //TEST2
+        //MONTHS WITH HIGHEST YOUTH UNEMPLOYMENT - 3 highest
+        //CITIES WITH LOWEST YOUTH UNEMPLOYMENT RATIO - 3 lowest
+        //const string CFd1 = "Data1_test2.txt";
+        //const string CFd2 = "Data2_test2.txt";
+
+        //TEST3
+        //MONTHS WITH HIGHEST YOUTH UNEMPLOYMENT - regular case
+        //CITIES WITH LOWEST YOUTH UNEMPLOYMENT RATIO -
+        //no unemployed youth and no youth population cases
+        const string CFd1 = "Data1_test3.txt";
+        const string CFd2 = "Data2_test3.txt";
+
         const string CFr = "Results.txt";
         static void Main(string[] args)
         {
@@ -145,28 +194,26 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
             ReadMatrix(CFd2, ref stateUn, Snn, Smm);
             PrintMatrix(CFr, stateUn, "Unemployed youth in cities");
 
-            int maxMonth, maxUnemployed;
-            ReturnMax(stateUn, out maxMonth, out maxUnemployed);
+            int maxSum = MaxMonthSum(stateUn);
 
-            using (var writer = File.AppendText(CFr))
-            {
-                writer.WriteLine("The month with the highest youth unemployment is month" +
-                                " {0} with {1} unemployed youth.",
-                                maxMonth + 1, maxUnemployed);
-                writer.WriteLine();
-            }
+            int[] maxMonths = new int[stateUn.m];
+            int count;
 
-            int cityIndex, monthIndex;
-            double minRatio;
-            YouthUnemployRatio(stateUn, State, out cityIndex, out monthIndex, out minRatio);
+            FindMaxMonths(stateUn, maxSum, maxMonths, out count);
 
-            using (var writer = File.AppendText(CFr))
-            {
-                writer.WriteLine("The city with the lowest youth unemployment ratio is {0} " +
-                                " in month {1} with {2,4:f} ratio.",
-                                State.GetCity(cityIndex).GetName(), monthIndex + 1, minRatio);
-                writer.WriteLine();
-            }
+            PrintMaxMonths(CFr, maxSum, maxMonths, count);
+
+
+            double minRatio = MinYouthUnemploymentRatio(stateUn, State);
+
+            int maxCases = stateUn.n * stateUn.m;
+            int[] cityIdx = new int[maxCases];
+            int[] monthIdx = new int[maxCases];
+            int rCount;
+
+            FindMinRatioCases(stateUn, State, minRatio, cityIdx, monthIdx, out rCount);
+
+            PrintMinRatioCases(CFr, State, stateUn, cityIdx, monthIdx, rCount, minRatio);
 
             SortCities(ref State, ref stateUn);
             Print(CFr, State, "Sorted cities by youth and residents from lower to higher");
@@ -175,6 +222,13 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
             Console.WriteLine("Program finished working.");
             Console.WriteLine("All results are written in {0} file.", CFr);
         }
+        /// <summary>
+        /// Reads city data from a file and fills CityArray with the data.
+        /// </summary>
+        /// <param name="fd"></param>
+        /// <param name="cities"></param>
+        /// <param name="nn"></param>
+        /// <param name="mm"></param>
         static void ReadCities(string fd, ref CityArray cities, out int nn, out int mm)
         {
             string name;
@@ -201,6 +255,13 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
                 }
             }
         }
+        /// <summary>
+        /// Reads unemployed youth data from a file and fills Matrix with the data.
+        /// </summary>
+        /// <param name="fd"></param>
+        /// <param name="matrix"></param>
+        /// <param name="nn"></param>
+        /// <param name="mm"></param>
         static void ReadMatrix(string fd, ref Matrix matrix, int nn, int mm)
         {
             string line;
@@ -222,6 +283,12 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
                 }
             }
         }
+        /// <summary>
+        /// Prints city data to a file
+        /// </summary>
+        /// <param name="fn"></param>
+        /// <param name="cities"></param>
+        /// <param name="header"></param>
         static void Print(string fn, CityArray cities, string header)
         {
             using (var writer = File.AppendText(fn))
@@ -239,6 +306,12 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
                 writer.WriteLine();
             }
         }
+        /// <summary>
+        /// Prints unemployed youth matrix to a file
+        /// </summary>
+        /// <param name="fn"></param>
+        /// <param name="unemployed"></param>
+        /// <param name="comm"></param>
         static void PrintMatrix(string fn, Matrix unemployed, string comm)
         {
             using (var fr = File.AppendText(fn))
@@ -259,44 +332,235 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
 
             }
         }
-        static void ReturnMax(Matrix matrix, out int month, out int max)
+        /// <summary>
+        /// Returns the maximum sum of unemployed youth in any month
+        /// </summary>
+        /// <param name="matrix"></param>
+        /// <returns></returns>
+        static int MaxMonthSum(Matrix matrix)
         {
-            max = matrix.GetS(0, 0);
-            month = 0;
+            int max = 0;
             for (int j = 0; j < matrix.m; j++)
             {
                 int sum = 0;
                 for (int i = 0; i < matrix.n; i++)
-                {
                     sum += matrix.GetS(i, j);
-                }
+
                 if (sum > max)
-                {
                     max = sum;
-                    month = j;
-                }
+            }
+            return max;
+        }
+        /// <summary>
+        /// Finds months with the maximum sum of unemployed youth
+        /// </summary>
+        /// <param name="matrix"></param>
+        /// <param name="max"></param>
+        /// <param name="months"></param>
+        /// <param name="count"></param>
+        static void FindMaxMonths(Matrix matrix, int max,
+                          int[] months, out int count)
+        {
+            count = 0;
+
+            for (int j = 0; j < matrix.m; j++)
+            {
+                int sum = 0;
+                for (int i = 0; i < matrix.n; i++)
+                    sum += matrix.GetS(i, j);
+
+                if (sum == max)
+                    months[count++] = j;
             }
         }
-        static void YouthUnemployRatio(Matrix matrix, CityArray cities, out int cityIndex,
-                                      out int monthIndex, out double minRatio)
+
+        /// <summary>
+        /// Prints months with the maximum sum of unemployed youth to a file
+        /// </summary>
+        /// <param name="fn"></param>
+        /// <param name="max"></param>
+        /// <param name="months"></param>
+        /// <param name="count"></param>
+        static void PrintMaxMonths(string fn, int max,
+                                   int[] months, int count)
         {
-            minRatio = (double)matrix.GetS(0, 0) / cities.GetCity(0).GetYouth();
-            cityIndex = 0;
-            monthIndex = 0;
+            using (var writer = File.AppendText(fn))
+            {
+                writer.WriteLine("MONTHS WITH HIGHEST YOUTH UNEMPLOYMENT");
+                writer.WriteLine("------------------------------------");
+
+                for (int i = 0; i < count; i++)
+                {
+                    writer.WriteLine(
+                        "Month {0}: total unemployed youth = {1}",
+                        months[i] + 1, max
+                    );
+                }
+                writer.WriteLine();
+            }
+        }
+
+        /// <summary>
+        /// Returns the minimum youth unemployment ratio
+        /// </summary>
+        /// <param name="matrix"></param>
+        /// <param name="cities"></param>
+        /// <returns></returns>
+        static double MinYouthUnemploymentRatio(Matrix matrix, CityArray cities)
+        {
+            double min = -1;
+
             for (int i = 0; i < matrix.n; i++)
             {
+                int youth = cities.GetCity(i).GetYouth();
+                if (youth == 0) continue;
+
                 for (int j = 0; j < matrix.m; j++)
                 {
-                    double ratio = (double)matrix.GetS(i, j) / cities.GetCity(i).GetYouth();
-                    if (ratio < minRatio)
-                    {
-                        minRatio = ratio;
-                        cityIndex = i;
-                        monthIndex = j;
-                    }
+                    int unemployed = matrix.GetS(i, j);
+                    if (unemployed == 0) continue;
+
+                    double ratio = (double)unemployed / youth;
+
+                    if (min < 0 || ratio < min)
+                        min = ratio;
                 }
             }
+            return min;
         }
+        /// <summary>
+        /// Finds cases with the minimum youth unemployment ratio
+        /// </summary>
+        /// <param name="matrix"></param>
+        /// <param name="cities"></param>
+        /// <param name="minRatio"></param>
+        /// <param name="cityIdx"></param>
+        /// <param name="monthIdx"></param>
+        /// <param name="count"></param>
+        static void FindMinRatioCases(Matrix matrix, CityArray cities, double minRatio,
+                                     int[] cityIdx, int[] monthIdx, out int count)
+        {
+            count = 0;
+
+            for (int i = 0; i < matrix.n; i++)
+            {
+                int youth = cities.GetCity(i).GetYouth();
+                if (youth == 0) continue;
+
+                for (int j = 0; j < matrix.m; j++)
+                {
+                    int unemployed = matrix.GetS(i, j);
+                    if (unemployed == 0) continue;
+
+                    double ratio = (double)unemployed / youth;
+
+                    if (ratio == minRatio)
+                    {
+                        cityIdx[count] = i;
+                        monthIdx[count] = j;
+                        count++;
+                    }
+                }
+
+            }
+        }
+        /// <summary>
+        /// Prints cases with the minimum youth unemployment ratio to a file
+        /// </summary>
+        /// <param name="fn"></param>
+        /// <param name="cities"></param>
+        /// <param name="matrix"></param>
+        /// <param name="cityIdx"></param>
+        /// <param name="monthIdx"></param>
+        /// <param name="count"></param>
+        /// <param name="minRatio"></param>
+        static void PrintMinRatioCases(string fn, CityArray cities, Matrix matrix,
+                                   int[] cityIdx, int[] monthIdx, int count, double minRatio)
+        {
+            using (var writer = File.AppendText(fn))
+            {
+                writer.WriteLine("CITIES WITH LOWEST YOUTH UNEMPLOYMENT RATIO");
+                writer.WriteLine("-----------------------------------------");
+
+                bool hasSpecialCases = false;
+
+                // Tikrinam, ar yra unemployed == 0 arba youth == 0
+                for (int i = 0; i < matrix.n; i++)
+                {
+                    int youth = cities.GetCity(i).GetYouth();
+
+                    for (int j = 0; j < matrix.m; j++)
+                    {
+                        int unemployed = matrix.GetS(i, j);
+
+                        if (youth == 0 || unemployed == 0)
+                        {
+                            hasSpecialCases = true;
+                            break;
+                        }
+                    }
+                    if (hasSpecialCases) break;
+                }
+                // If special cases exist – print them
+                if (hasSpecialCases)
+                {
+                    for (int i = 0; i < matrix.n; i++)
+                    {
+                        int youth = cities.GetCity(i).GetYouth();
+
+                        for (int j = 0; j < matrix.m; j++)
+                        {
+                            int unemployed = matrix.GetS(i, j);
+
+                            if (youth == 0 && unemployed == 0)
+                            {
+                                writer.WriteLine(
+                                    "{0}, month {1}: no youth and no unemployed",
+                                    cities.GetCity(i).GetName(), j + 1
+                                    );
+                            }
+                            else if (youth == 0)
+                            {
+                                writer.WriteLine(
+                                    "{0}, month {1}: no youth population",
+                                    cities.GetCity(i).GetName(),
+                                    j + 1
+                                );
+                            }
+                            else if (unemployed == 0)
+                            {
+                                writer.WriteLine(
+                                    "{0}, month {1}: no unemployed youth",
+                                    cities.GetCity(i).GetName(),
+                                    j + 1
+                                );
+                            }
+                        }
+                    }
+                }
+                // If no special cases – print normal cases
+                else
+                {
+                    for (int i = 0; i < count; i++)
+                    {
+                        writer.WriteLine(
+                            "{0}, month {1}, ratio = {2:F6}",
+                            cities.GetCity(cityIdx[i]).GetName(),
+                            monthIdx[i] + 1,
+                            minRatio
+                        );
+                    }
+                }
+                writer.WriteLine();
+            }
+        }
+
+
+        /// <summary>
+        /// Sorts cities by youth and residents in ascending order
+        /// </summary>
+        /// <param name="cities"></param>
+        /// <param name="matrix"></param>
         static void SortCities(ref CityArray cities, ref Matrix matrix)
         {
             for (int i = 0; i < cities.n - 1; i++)
@@ -313,6 +577,5 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
                 }
             }
         }
-
     }
 }
