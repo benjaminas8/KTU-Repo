@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D508E95-19FB-42AC-8CA3-6CA5AEDACE9C}|IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23.csproj|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\ifin53_\u010Deikauskas_benjaminas_u5_23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D508E95-19FB-42AC-8CA3-6CA5AEDACE9C}|IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23.csproj|solutionrelative:ifin53_\u010Deikauskas_benjaminas_u5_23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Results.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Results.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D508E95-19FB-42AC-8CA3-6CA5AEDACE9C}|IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23.csproj|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\ifin53_\u010Deikauskas_benjaminas_u5_23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D508E95-19FB-42AC-8CA3-6CA5AEDACE9C}|IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23.csproj|solutionrelative:ifin53_\u010Deikauskas_benjaminas_u5_23\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test4.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test4.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test4.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test4.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Data1_test1.txt",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test1.txt",
               "RelativeDocumentMoniker": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test1.txt",
@@ -58,12 +66,11 @@
               "RelativeToolTip": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test1.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-16T13:23:57.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T13:23:57.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Data2_test1.txt",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test1.txt",
               "RelativeDocumentMoniker": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test1.txt",
@@ -76,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Data1_test2.txt",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test2.txt",
               "RelativeDocumentMoniker": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test2.txt",
@@ -89,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Data2_test2.txt",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test2.txt",
               "RelativeDocumentMoniker": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test2.txt",
@@ -102,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Data1_test3.txt",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test3.txt",
               "RelativeDocumentMoniker": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test3.txt",
@@ -115,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Data2_test3.txt",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test3.txt",
               "RelativeDocumentMoniker": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test3.txt",
@@ -128,26 +135,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Data1_test4.txt",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test4.txt",
+              "RelativeDocumentMoniker": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test4.txt",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test4.txt",
+              "RelativeToolTip": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data1_test4.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-17T12:24:16.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Data2_test4.txt",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test4.txt",
+              "RelativeDocumentMoniker": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test4.txt",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test4.txt",
+              "RelativeToolTip": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Data2_test4.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-17T12:24:41.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Results.txt",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Results.txt",
               "RelativeDocumentMoniker": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Results.txt",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Results.txt",
               "RelativeToolTip": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\bin\\Debug\\Results.txt",
-              "ViewState": "AgIAACQAAAAAAAAAAAAUwEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-12-10T19:24:14.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\Program.cs",
               "RelativeDocumentMoniker": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\KTU-Repo\\Year1-1\\OPP\\P5\\IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\Program.cs",
               "RelativeToolTip": "IFIN53_\u010Ceikauskas_Benjaminas_U5_23\\Program.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAmwLAAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAmwLYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T07:43:58.14Z",
               "EditorCaption": ""

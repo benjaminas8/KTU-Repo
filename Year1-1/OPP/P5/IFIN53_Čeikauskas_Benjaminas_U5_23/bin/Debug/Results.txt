@@ -3,62 +3,48 @@ Cities
 | Nr. |    City    |   Residents   |    Youth    |
 --------------------------------------------------
 | 1.  |CityA       |     100000    |    10000    |
-| 2.  |CityB       |     90000     |     0    |
+| 2.  |CityB       |     90000     |    10000    |
 | 3.  |CityC       |     80000     |    10000    |
 | 4.  |CityD       |     70000     |    10000    |
-| 5.  |CityE       |     60000     |    10000    |
 --------------------------------------------------
 
 --------------------------------------------------
 Unemployed youth in cities per 4 month.
 --------------------------------------------------
-    1.     5     5     0     0 
-    2.    10    10     0     0 
-    3.     0     0     0     0 
-    4.     1     1     0     0 
-    5.     1     1     0     0 
+    1.    10    20    20    20 
+    2.    10    20    20    20 
+    3.    10    20    20    20 
+    4.    20    20    20    20 
 --------------------------------------------------
 
 MONTHS WITH HIGHEST YOUTH UNEMPLOYMENT
 ------------------------------------
-Month 1: total unemployed youth = 17
-Month 2: total unemployed youth = 17
+Month 2: total unemployed youth = 80
+Month 3: total unemployed youth = 80
+Month 4: total unemployed youth = 80
 
 CITIES WITH LOWEST YOUTH UNEMPLOYMENT RATIO
 -----------------------------------------
-CityA, month 3: no unemployed youth
-CityA, month 4: no unemployed youth
-CityB, month 1: no youth population
-CityB, month 2: no youth population
-CityB, month 3: no youth and no unemployed
-CityB, month 4: no youth and no unemployed
-CityC, month 1: no unemployed youth
-CityC, month 2: no unemployed youth
-CityC, month 3: no unemployed youth
-CityC, month 4: no unemployed youth
-CityD, month 3: no unemployed youth
-CityD, month 4: no unemployed youth
-CityE, month 3: no unemployed youth
-CityE, month 4: no unemployed youth
+CityA, month 1, ratio = 0.001000
+CityB, month 1, ratio = 0.001000
+CityC, month 1, ratio = 0.001000
 
 Sorted cities by youth and residents from lower to higher
 --------------------------------------------------
 | Nr. |    City    |   Residents   |    Youth    |
 --------------------------------------------------
-| 1.  |CityB       |     90000     |     0    |
-| 2.  |CityE       |     60000     |    10000    |
-| 3.  |CityD       |     70000     |    10000    |
-| 4.  |CityC       |     80000     |    10000    |
-| 5.  |CityA       |     100000    |    10000    |
+| 1.  |CityD       |     70000     |    10000    |
+| 2.  |CityC       |     80000     |    10000    |
+| 3.  |CityB       |     90000     |    10000    |
+| 4.  |CityA       |     100000    |    10000    |
 --------------------------------------------------
 
 --------------------------------------------------
 Unemployed youth in cities after sorting per 4 month.
 --------------------------------------------------
-    1.    10    10     0     0 
-    2.     1     1     0     0 
-    3.     1     1     0     0 
-    4.     0     0     0     0 
-    5.     5     5     0     0 
+    1.    20    20    20    20 
+    2.    10    20    20    20 
+    3.    10    20    20    20 
+    4.    10    20    20    20 
 --------------------------------------------------
 

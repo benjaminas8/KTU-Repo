@@ -1,0 +1,5 @@
+4 4
+Vilnius 600000 0
+Kaunas 300000 0
+Klaipeda 150000 0
+Siauliai 100000 0
