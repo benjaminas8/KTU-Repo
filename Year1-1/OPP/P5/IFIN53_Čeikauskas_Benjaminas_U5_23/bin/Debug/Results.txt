@@ -2,49 +2,45 @@ Cities
 --------------------------------------------------
 | Nr. |    City    |   Residents   |    Youth    |
 --------------------------------------------------
-| 1.  |CityA       |     100000    |    10000    |
-| 2.  |CityB       |     90000     |    10000    |
-| 3.  |CityC       |     80000     |    10000    |
-| 4.  |CityD       |     70000     |    10000    |
+| 1.  |Vilnius     |     600000    |     0    |
+| 2.  |Kaunas      |     300000    |     0    |
+| 3.  |Klaipeda    |     150000    |     0    |
+| 4.  |Siauliai    |     100000    |     0    |
 --------------------------------------------------
 
 --------------------------------------------------
 Unemployed youth in cities per 4 month.
 --------------------------------------------------
-    1.    10    20    20    20 
-    2.    10    20    20    20 
-    3.    10    20    20    20 
-    4.    20    20    20    20 
+    1.     0     0     0     0 
+    2.     0     0     0     0 
+    3.     0     0     0     0 
+    4.     0     0     0     0 
 --------------------------------------------------
 
 MONTHS WITH HIGHEST YOUTH UNEMPLOYMENT
 ------------------------------------
-Month 2: total unemployed youth = 80
-Month 3: total unemployed youth = 80
-Month 4: total unemployed youth = 80
+Unemployement does not exist
 
 CITIES WITH LOWEST YOUTH UNEMPLOYMENT RATIO
 -----------------------------------------
-CityA, month 1, ratio = 0.001000
-CityB, month 1, ratio = 0.001000
-CityC, month 1, ratio = 0.001000
+Youth unemployment does not exist.
 
 Sorted cities by youth and residents from lower to higher
 --------------------------------------------------
 | Nr. |    City    |   Residents   |    Youth    |
 --------------------------------------------------
-| 1.  |CityD       |     70000     |    10000    |
-| 2.  |CityC       |     80000     |    10000    |
-| 3.  |CityB       |     90000     |    10000    |
-| 4.  |CityA       |     100000    |    10000    |
+| 1.  |Siauliai    |     100000    |     0    |
+| 2.  |Klaipeda    |     150000    |     0    |
+| 3.  |Kaunas      |     300000    |     0    |
+| 4.  |Vilnius     |     600000    |     0    |
 --------------------------------------------------
 
 --------------------------------------------------
 Unemployed youth in cities after sorting per 4 month.
 --------------------------------------------------
-    1.    20    20    20    20 
-    2.    10    20    20    20 
-    3.    10    20    20    20 
-    4.    10    20    20    20 
+    1.     0     0     0     0 
+    2.     0     0     0     0 
+    3.     0     0     0     0 
+    4.     0     0     0     0 
 --------------------------------------------------
 

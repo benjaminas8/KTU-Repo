@@ -166,8 +166,8 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
         //TEST2
         //MONTHS WITH HIGHEST YOUTH UNEMPLOYMENT - 3 highest
         //CITIES WITH LOWEST YOUTH UNEMPLOYMENT RATIO - 3 lowest
-        const string CFd1 = "Data1_test2.txt";
-        const string CFd2 = "Data2_test2.txt";
+        //const string CFd1 = "Data1_test2.txt";
+        //const string CFd2 = "Data2_test2.txt";
 
         //TEST3
         //MONTHS WITH HIGHEST YOUTH UNEMPLOYMENT - regular case
@@ -179,8 +179,8 @@ namespace IFIN53_Čeikauskas_Benjaminas_U5_23
         //TEST4
         //MONTHS WITH HIGHEST YOUTH UNEMPLOYMENT - no unemployement
         //CITIES WITH LOWEST YOUTH UNEMPLOYMENT RATIO - no unemployement
-        //const string CFd1 = "Data1_test4.txt";
-        //const string CFd2 = "Data2_test4.txt";
+        const string CFd1 = "Data1_test4.txt";
+        const string CFd2 = "Data2_test4.txt";
 
         const string CFr = "Results.txt";
         static void Main(string[] args)
